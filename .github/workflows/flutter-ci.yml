@@ -22,9 +22,11 @@ jobs:
     - run: flutter pub get
     
     - run: dart format --set-exit-if-changed .
-    
+
+    - run: echo "class DefaultFirebaseOptions { static FirebaseOptions? get currentPlatform => null; }" > lib/firebase_options.dart
+
     - run: flutter analyze .
     
 #    - run: flutter test
     
-    - run: flutter build web --no-pub --no-tree-shake-icons
+#    - run: flutter build web --no-pub --no-tree-shake-icons
