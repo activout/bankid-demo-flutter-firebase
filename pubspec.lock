@@ -141,26 +141,26 @@ packages:
     dependency: "direct main"
     description:
       name: cloud_functions
-      sha256: "3f7fff2225ed46976dee89d902d0216ca64a8401d0bc875dba8d12ad1d2588d1"
+      sha256: dbb3826232476d250d43a139360c7c4e3acfaeb48108bc8a76518b02bf56f15c
       url: "https://pub.dev"
     source: hosted
-    version: "4.7.1"
+    version: "4.7.2"
   cloud_functions_platform_interface:
     dependency: transitive
     description:
       name: cloud_functions_platform_interface
-      sha256: "5685ae2d33c0f2f9f2ba26f49828830628fa2dce36898f971370aeed57f5ff03"
+      sha256: c9e82c4a54306c7efa01014ee804b4965654cb780bab64dcc71461244722316c
       url: "https://pub.dev"
     source: hosted
-    version: "5.5.23"
+    version: "5.5.24"
   cloud_functions_web:
     dependency: transitive
     description:
       name: cloud_functions_web
-      sha256: fe5f813461b70eeb4d058d72853b8bf096a124b8d351749f39deddfcdf22e9b9
+      sha256: c8f852e59aaa9eb428c1471080cfcce4feb293606c7ba58f643b2540392c989a
       url: "https://pub.dev"
     source: hosted
-    version: "4.9.1"
+    version: "4.9.2"
   code_builder:
     dependency: transitive
     description:
@@ -261,10 +261,10 @@ packages:
     dependency: "direct main"
     description:
       name: firebase_core
-      sha256: a864d1b6afd25497a3b57b016886d1763df52baaa69758a46723164de8d187fe
+      sha256: "6b1152a5af3b1cfe7e45309e96fc1aa14873f410f7aadb3878aa7812acfa7531"
       url: "https://pub.dev"
     source: hosted
-    version: "2.29.0"
+    version: "2.30.0"
   firebase_core_platform_interface:
     dependency: transitive
     description:
