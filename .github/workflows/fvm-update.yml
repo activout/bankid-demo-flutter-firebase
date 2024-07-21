@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '0 0 * * 0' # Weekly
 
+env:
+  CI: true
+
 jobs:
   update-flutter-version:
     runs-on: ubuntu-latest
@@ -19,7 +22,7 @@ jobs:
         run: dart pub global activate fvm
 
       - name: Run FVM use stable --pin
-        run: fvm use stable --pin --skip-setup
+        run: fvm use stable --pin
 
       - name: Run fvm install separately
         run: fvm install
