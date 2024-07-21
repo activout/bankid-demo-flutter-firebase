@@ -22,10 +22,7 @@ jobs:
         run: dart pub global activate fvm
 
       - name: Run FVM use stable --pin
-        run: fvm use stable --pin
-
-      - name: Run fvm install separately
-        run: fvm install
+        run: fvm use stable --pin --verbose
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
