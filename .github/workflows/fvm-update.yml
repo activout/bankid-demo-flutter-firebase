@@ -21,6 +21,9 @@ jobs:
       - name: Install FVM
         run: dart pub global activate fvm
 
+      - name: Run fvm doctor
+        run: fvm doctor
+
       - name: Run FVM use stable --pin
         run: fvm use stable --pin --verbose
 
