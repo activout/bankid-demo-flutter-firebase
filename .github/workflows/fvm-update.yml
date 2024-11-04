@@ -3,7 +3,7 @@ name: Update Flutter Version in FVM
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 0' # Weekly
+    - cron: '0 0 1 * *' # Monthly on the 1st day
 
 env:
   CI: true
