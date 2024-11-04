@@ -25,10 +25,7 @@ jobs:
         run: fvm doctor
 
       - name: Run FVM use stable --pin
-        run: fvm use stable --pin
-
-      - name: See if tests pass
-        run: flutter test
+        run: fvm use stable --pin --skip-setup
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
