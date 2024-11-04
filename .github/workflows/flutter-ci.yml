@@ -23,7 +23,7 @@ jobs:
     
     - run: dart format --set-exit-if-changed .
 
-    - run: echo "class DefaultFirebaseOptions { static FirebaseOptions? get currentPlatform => null; }" > lib/firebase_options.dart
+    - run: echo "import 'package:firebase_core/firebase_core.dart' show FirebaseOptions; class DefaultFirebaseOptions { static FirebaseOptions? get currentPlatform => null; }" > lib/firebase_options.dart
 
     - run: flutter analyze .
     
