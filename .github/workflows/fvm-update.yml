@@ -28,10 +28,10 @@ jobs:
         run: fvm use stable --pin
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "Update Flutter version to latest stable"
           title: "Update Flutter version to latest stable"
-          body: "This PR updates the Flutter version to the latest stable release. Tip: close and reopen this PR to trigger the GitHub Action for PRs!"
+          body: "This PR updates the Flutter version to the latest stable release.\n\nTip: close and reopen this PR to trigger the GitHub Action for PRs!"
           branch: "update-flutter-stable-${{ github.run_number }}"
           delete-branch: true
