@@ -28,10 +28,10 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  cloud_functions: ^6.5.0
+  cloud_functions: ^7.0.0
   cupertino_icons: ^2.0.0
-  firebase_auth: ^6.3.0
-  firebase_core: ^4.0.0
+  firebase_auth: ^7.0.0
+  firebase_core: ^5.0.0
   flutter:
     sdk: flutter
   flutter_state_notifier: ^1.0.0
